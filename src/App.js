@@ -14,6 +14,9 @@ function App() {
     <div>
        <Title HeaderContent="Know Thyself"/>
        <Description MessageContent="A mood tracking app designed to help you better recognize your emotions"/>
+       <TodayIs MessageContent="Today Is"/>
+       <On MessageContent="On"/>
+
     </div>
   );
 }

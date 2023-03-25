@@ -13,9 +13,10 @@ const Title = (props) => {
 }
 
 
+export default Title;
+
 const HeaderText = styled.h1`
 text-align: center;
 background-color: blue;
 `
 
-export default Title;

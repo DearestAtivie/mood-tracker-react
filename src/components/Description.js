@@ -14,6 +14,6 @@ const Description = (props) => {
 
 export default Description;
 
-const Message = styled.h3`
+const Message = styled.h2`
 text-align: center;
 background-color: green;`
