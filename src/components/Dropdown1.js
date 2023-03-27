@@ -30,7 +30,6 @@ export default Dropdown1;
 const EntireDD1Styling = styled.div`
 font-family: sans-serif;
 background: #f0f0f0;
-height: 100vh;
 `;
 
 

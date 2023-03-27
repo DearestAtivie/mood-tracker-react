@@ -27,7 +27,6 @@ export default Dropdown2
 const EntireDD2Styling = styled.div`
 font-family: sans-serif;
 background: #f0f0f0;
-height: 100vh;
 `;
 
 
