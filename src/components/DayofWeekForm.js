@@ -3,18 +3,18 @@ import styled from 'styled-components'; // 2 step but make sure you use npm inst
 
 
 
-function DateForm () {
+function DayofWeekForm (props) {
     return (
       <>
         <StyledDiv>
-          <Date type="text" placeholder="MM.DD.YYYY"></Date>
+          <Weekday type="text" placeholder="Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday"></Weekday>
         </StyledDiv>
      </>
     );
   }
 
   
-  export default DateForm;
+  export default DayofWeekForm;
 
   const StyledDiv = styled.div`
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -24,6 +24,6 @@ function DateForm () {
     margin: 0px auto 20px auto;
     `
 
-    const Date = styled.input`
+    const Weekday = styled.input`
     background-color: white
     `

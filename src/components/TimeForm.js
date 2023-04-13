@@ -3,18 +3,18 @@ import styled from 'styled-components'; // 2 step but make sure you use npm inst
 
 
 
-function DateForm () {
+function TimeofDay (props) {
     return (
       <>
         <StyledDiv>
-          <Date type="text" placeholder="MM.DD.YYYY"></Date>
+          <Time type="text" placeholder="Time of Day"></Time>
         </StyledDiv>
      </>
     );
   }
 
   
-  export default DateForm;
+  export default TimeofDay;
 
   const StyledDiv = styled.div`
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -24,6 +24,6 @@ function DateForm () {
     margin: 0px auto 20px auto;
     `
 
-    const Date = styled.input`
+    const Time = styled.input`
     background-color: white
     `

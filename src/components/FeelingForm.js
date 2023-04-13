@@ -9,7 +9,7 @@ function FeelingForm (props) {
       <>
         <StyledDiv>
           <Feelings type="text" placeholder="Confused, Happy, Content, etc.."></Feelings>
-          <NiceButton/>
+          <NiceButton ButtonText="Submit"/>
         </StyledDiv>
      </>
     );
